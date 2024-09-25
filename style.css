@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,nav{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+body{
+	color: white;
+	background-color: black;
+}
+
+
+
+.bg-red {
+	background-color: #d00000;
+}
+
+
+.bg-yellow {
+	background-color: #ffc920;
+	color: #000000;
+}
+
+
+
+
+
+
+.top-padding {
+	padding-top: 30px;
+}
+
+.bottom-padding {
+	padding-bottom: 30px;
+}
+
+.container-spacing {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+nav {
+	list-style-type: none;
+	background-color: gainsboro;
+	padding: 20px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	letter-spacing: .2em;
+	padding-right: 5em;
+}
+
+nav a:hover{
+	text-decoration: none;
+	color: pink;
+}
+
+
+
+
+.text-center{
+	text-align: center;
+}
+
+.img-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-block{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.float-left{
+	float: left;
+	padding-right: 1em;
+}
+
+.float-right{
+	float: right;
+	padding-left: 1em;
+}
